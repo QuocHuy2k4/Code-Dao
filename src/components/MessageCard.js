@@ -12,11 +12,10 @@ const CardContainer = styled(motion.div)`
   backdrop-filter: blur(12px);
   border-radius: 24px;
   padding: 35px;
-  width: 600px;
-  height:800px
+  max-width: 550px;
   box-shadow: 0 10px 30px rgba(255, 105, 180, 0.3),
     0 0 20px rgba(255, 182, 193, 0.2), inset 0 0 10px rgba(255, 255, 255, 0.5);
- 
+
   margin-bottom: ${(props) => (props.marginBottom ? "30px" : "0")};
   z-index: 10;
   position: relative;
@@ -330,7 +329,7 @@ const MessageCard = ({ marginBottom }) => {
               src={messages[currentMessage]}
               alt={`Message ${currentMessage + 1}`}
               style={{
-                maxWidth: "80%",
+                maxWidth: "90%",
                 maxHeight: "400px",
                 borderRadius: "15px",
                 boxShadow: "0 5px 15px rgba(0,0,0,0.2)",

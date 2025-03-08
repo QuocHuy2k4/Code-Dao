@@ -340,11 +340,6 @@ const MessageCard = ({ marginBottom }) => {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.5 }}
             />
-            <NextButton onClick={nextMessage}>
-              {currentMessage < messages.length - 1
-                ? "Ảnh tiếp theo"
-                : "Cuối cùng"}
-            </NextButton>
           </MessageWrapper>
         </AnimatePresence>
 

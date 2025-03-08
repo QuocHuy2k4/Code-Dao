@@ -100,7 +100,7 @@ const Title = styled(motion.h1)`
 
 const PuppyContainer = styled(motion.div)`
   width: 100%;
-  height: 20vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
